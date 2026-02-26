@@ -18,5 +18,5 @@ archives:
 
 release:
   github:
-    owner: afumu
+    owner: jfaidl
     name: openlink

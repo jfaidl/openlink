@@ -93,7 +93,7 @@ func (t *WriteFileTool) Execute(ctx *Context) *Result {
 	}
 
 	result.Status = "success"
-	result.Output = "写入成功"
+	result.Output = "写入成功，文件路径: " + safePath
 	result.StopStream = true
 	result.EndTime = time.Now()
 	return result
